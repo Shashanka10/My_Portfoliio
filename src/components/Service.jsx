@@ -1,9 +1,9 @@
 import React from 'react';
-import './service.css';
+import '../assests/css/service.css';
 
 const Service = () => {
   return (
-    <div>Service</div>
+    <div>Services</div>
   )
 }
 
