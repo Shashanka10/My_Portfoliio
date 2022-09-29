@@ -51,6 +51,7 @@ header{
 }
 
 .scroll__down{
+    transition: var(--transition);
     position: absolute;
     right: -2rem;
     bottom: 5rem;
