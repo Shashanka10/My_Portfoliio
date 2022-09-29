@@ -1,15 +1,15 @@
 import React from 'react';
 import '../assests/css/about.css';
-import ME1 from "../assests/img/pfp.png";
+import ME1 from "../assests/img/pp.jpg";
 import {RiMedal2Fill} from "react-icons/ri";
 import {AiOutlineUsergroupAdd} from "react-icons/ai";
 import {BiMedal} from "react-icons/bi";
 
 const About = () => {
   return (
-    <section id='About'>
+    <section id='About' className='sec_ab'>
       <h5>Get to Know</h5>
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -37,7 +37,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          I am an enthusiastic front end developer and graphic designer from Nepal. I have been working on several Projects
+          I am an enthusiastic front end developer and graphic designer from Nepal. I have been working on several projects
           for very long time now and i have got quite an experience to this field of subject.
           </p>
           <a href='#Contact' className='btn btn-primary'>Let's Talk</a>
