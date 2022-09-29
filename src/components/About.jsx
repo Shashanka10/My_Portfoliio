@@ -7,7 +7,7 @@ import {BiMedal} from "react-icons/bi";
 
 const About = () => {
   return (
-    <section id='About' className='sec_ab'>
+    <section id='About'>
       <h5>Get to Know</h5>
       <h2>About Me</h2>
       <div className="container about__container">

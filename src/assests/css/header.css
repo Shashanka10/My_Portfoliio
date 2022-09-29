@@ -44,11 +44,7 @@ header{
     border-radius: 16rem 0 0 0;
     overflow: hidden;  
 }
-.me .imi{
-    position: relative;
-    top: -4rem;
-    padding: 3rem;
-}
+
 
 .scroll__down{
     transition: var(--transition);

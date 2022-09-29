@@ -26,37 +26,37 @@ const Experience = () => {
           <div className="experience__content">
 
             <article className='experience_details'>
-              <AiFillHtml5 /> <BsCheckCircle />
+              <AiFillHtml5 className="experience__details-icons" /> <BsCheckCircle className="experience__details-icons" />
               <h4>HTML</h4>
               <small className='text-light'>Intermediate</small>
             </article>
 
             <article className='experience_details'>
-              <IoLogoCss3 /> <BsCheckCircle />
+              <IoLogoCss3 className="experience__details-icons" /> <BsCheckCircle className="experience__details-icons" />
               <h4>CSS</h4>
               <small className='text-light'>Experienced</small>
             </article>
 
             <article className='experience_details'>
-              <DiJavascript1 /> <BsCheckCircle />
+              <DiJavascript1 className="experience__details-icons" /> <BsCheckCircle className="experience__details-icons" />
               <h4>Javascript</h4>
               <small className='text-light'>Beginner</small>
             </article>
 
             <article className='experience_details'>
-              <FaReact /> <BsCheckCircle />
+              <FaReact className="experience__details-icons" /> <BsCheckCircle className="experience__details-icons" />
               <h4>React</h4>
               <small className='text-light'>Experienced</small>
             </article>
 
             <article className='experience_details'>
-              <SiBootstrap /> <BsCheckCircle />
+              <SiBootstrap className="experience__details-icons" /> <BsCheckCircle className="experience__details-icons" />
               <h4>Bootstrap</h4>
               <small className='text-light'>Intermediate</small>
             </article>
 
             <article className='experience_details'>
-              <SiTailwindcss /> <ImCross />
+              <SiTailwindcss className="experience__details-icons" /> <ImCross className='crossed'/>
               <h4>TailWind</h4>
               <small className='text-light'>No-Experience</small>
             </article>
@@ -68,31 +68,31 @@ const Experience = () => {
           <div className="experience__content">
 
             <article className='experience_details'>
-              <FaNodeJs /> <ImCross />
+              <FaNodeJs className="experience__details-icons" /> <ImCross className='crossed'/>
               <h4>Node JS</h4>
               <small className='text-light'>No experience</small>
             </article>
 
             <article className='experience_details'>
-              <SiMongodb /> <ImCross />
+              <SiMongodb className="experience__details-icons" /> <ImCross className='crossed'/>
               <h4>MongoDB</h4>
               <small className='text-light'>No experience</small>
             </article>
 
             <article className='experience_details'>
-              <DiPhp /> <ImCross />
+              <DiPhp className="experience__details-icons" /> <ImCross className='crossed'/>
               <h4>PHP</h4>
               <small className='text-light'>No experience</small>
             </article>
 
             <article className='experience_details'>
-              <GrMysql /> <ImCross />
+              <GrMysql className="experience__details-icons" /> <ImCross className='crossed'/>
               <h4>MySQL</h4>
               <small className='text-light'>No experience</small>
             </article>
 
             <article className='experience_details'>
-              <FaPython /> <ImCross />
+              <FaPython className="experience__details-icons" /> <ImCross className='crossed'/>
               <h4>Python</h4>
               <small className='text-light'>No experience</small>
             </article>

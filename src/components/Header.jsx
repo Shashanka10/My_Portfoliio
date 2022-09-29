@@ -16,7 +16,7 @@ const Header = () => {
         <CVX />
         <Socials />
         <div className="me">
-          <img src={ME} alt='me' className='imi'></img>
+          <img src={ME} alt='me'></img>
         </div>
         <a href='#Contact' className='scroll__down'>Scroll Down</a>
       </div>
